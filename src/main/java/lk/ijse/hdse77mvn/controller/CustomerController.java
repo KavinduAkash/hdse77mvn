@@ -35,7 +35,6 @@ public class CustomerController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -68,7 +67,6 @@ public class CustomerController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -103,7 +101,6 @@ public class CustomerController {
             }
 
             stmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -134,7 +131,6 @@ public class CustomerController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -171,7 +167,6 @@ public class CustomerController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();

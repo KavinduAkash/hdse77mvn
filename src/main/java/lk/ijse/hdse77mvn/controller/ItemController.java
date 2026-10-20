@@ -44,7 +44,6 @@ public class ItemController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -82,7 +81,6 @@ public class ItemController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -122,7 +120,6 @@ public class ItemController {
             }
 
             stmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -159,7 +156,6 @@ public class ItemController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
@@ -201,7 +197,6 @@ public class ItemController {
             }
 
             pstmt.close();
-            conn.close();
 
        } catch(SQLException e) {
             e.printStackTrace();
